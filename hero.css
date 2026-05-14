@@ -1,0 +1,27 @@
+.home-hero {
+    position: relative;
+    height: 450px;
+
+    margin: -90px -60px 10px -60px;
+
+    background-image: url("Background-Heros/home-hero.png");
+
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+
+.home-hero h1 {
+font-size: 5rem;
+color: rgb(51, 0, 68);
+text-shadow: 0 0 20px #fefdff;
+text-align: center;
+}
