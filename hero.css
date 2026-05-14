@@ -1,25 +1,55 @@
 .home-hero {
     position: relative;
-    height: 450px;
+    height: 800px;
 
-    margin: -90px -60px 10px -60px;
+    margin: -60px -60px 0px -60px;
 
     background-image: url("Background-Heros/home-hero.png");
 
-    background-size: contain;
-    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
 
 .home-hero h1 {
+font-size: 5rem;
+color: rgb(51, 0, 68);
+text-shadow: 0 0 20px #fefdff;
+text-align: center;
+}
+
+.aboutme-hero {
+    position: relative;
+    height: 450px;
+
+    margin: -90px -60px 10px -60px;
+
+    background-image: url("Background-Heros/aboutme-hero.jpeg");
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow-x: hidden;
+}
+
+
+
+.aboutme-hero h1 {
 font-size: 5rem;
 color: rgb(51, 0, 68);
 text-shadow: 0 0 20px #fefdff;
